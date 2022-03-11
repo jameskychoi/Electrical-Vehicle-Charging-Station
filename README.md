@@ -7,5 +7,5 @@ How many charging stations did you think there were before you knew this? One of
 - Red sign = Place Management NSW
 - Orange sign = Srinivasa Fuels Pty Ltd
 - Black sign = Wilson Parking Australia 1992 Pty Ltd
-## Let's look at the surrounding of CBD, we have found 1 by Telsa.
+## Let's have a peek at the CBD's surroundings. We discovered 1 by Telsa.
 ![EVCS_map_2](https://user-images.githubusercontent.com/62376291/157817958-5a081ab3-e6ea-4423-ac23-b97ce9720064.png)
