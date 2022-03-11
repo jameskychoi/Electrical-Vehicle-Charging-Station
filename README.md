@@ -1,5 +1,5 @@
  # Locations of Electrical Vehicle Charging Stations in New South Wales, Australia
-## There are currently 58 Charging Stations in NSW ! (As of March 2022)
+## There are currently 58 charging stations in NSW ! (As of March 2022)
 ![EVCS_map](https://user-images.githubusercontent.com/62376291/157606753-87b567f7-36db-4baa-9172-627d9084db21.png)
 There are currently
 ## Let's look at the surrounding of CBD, we have found 1 by Te
