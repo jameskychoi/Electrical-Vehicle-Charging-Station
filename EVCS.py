@@ -1,9 +1,16 @@
+#import the libraries that are required for the analysis. 
+#pandas is for dataframe construction and manipulation; 
+#folium is for generalising visualisation of data on an interative map.
 import pandas as pd
 import folium
 
+#import and read the CSV file into Python using pandas.
 EV_df = pd.read_csv("C:\\Users\kcho4\OneDrive\Desktop\Project _Python\EV Charging Stations in NSW\EVCS.csv",sep=";")
+# constructive a data frame including all the important columns and rows.
 EVCS_df = pd.DataFrame(EV_df, columns=['Organisation_Name','Service_Station_Location','Lat_decrypted','Long_decrypted'])
+# replacing the commas of the coordinates with dots.
 EVCS_coord = EVCS_df['Lat_decrypted'].replace(',','.', regex=True)
+
 EVCS_df['Lat_decrypted'] = EVCS_df['Lat_decrypted'].str.replace(',','.') 
 EVCS_df['Long_decrypted'] = EVCS_df['Long_decrypted'].str.replace(',','.')
 EVCS_df.head()
